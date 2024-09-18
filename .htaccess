@@ -1,0 +1,7 @@
+# Define index.html como o arquivo padrão
+DirectoryIndex index.html
+
+# Redireciona URLs que terminam com index.html para a raiz do domínio
+RewriteEngine On
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
