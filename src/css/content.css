@@ -297,7 +297,7 @@
 }
 
 .how-it-work-info > span {
-    color: rgba(250, 232, 70, .1);
+    color: rgba(250, 232, 70, .4);
     letter-spacing: .05em;
     font-family: 'Montserrat', monospace;
     font-size: 9rem;
