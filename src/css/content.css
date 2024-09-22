@@ -318,8 +318,9 @@
     box-shadow: 2px 2px 8px 0 rgba(250, 209, 70, .2);
 }
 
-.how-it-work-card h4 {
+.how-it-work-card span {
     color: var(--color-secondary-4);
+    display: block;
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: .1em;
@@ -368,7 +369,7 @@
         display: none;
     }
 
-    .how-it-work-card h4 {
+    .how-it-work-card span {
         font-size: .75rem;
     }
 
